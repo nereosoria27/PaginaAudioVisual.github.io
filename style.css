@@ -1,0 +1,67 @@
+body {
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.header {
+    text-align: center;
+    background: rgb(8,4,88);
+    background: linear-gradient(90deg, rgb(28, 3, 43) 0%, rgb(34, 7, 75) 53%, rgb(19, 5, 56) 100%);
+    color:rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    text-align: center;
+    font-size:larger;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.division {
+    text-align: center;
+    background: rgb(8,4,88);
+    background: linear-gradient(90deg, rgb(28, 3, 43) 0%, rgb(25, 5, 54) 53%, rgb(19, 5, 56) 100%);
+    color:rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    padding: 50px;
+    font-size:x-large;
+}
+
+.videos {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+footer {
+    text-align: center;
+    background: rgb(8,4,88);
+    background: linear-gradient(90deg, rgb(28, 3, 43) 0%, rgb(25, 5, 54) 53%, rgb(19, 5, 56) 100%);
+    color:rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    padding: 100px;
+}
