@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
@@ -64,8 +65,18 @@ body {
     position: fixed;
     z-index: -1;
     bottom: 0;
-    animation: subir 10s linear infinite;
+    animation: subir 80s linear infinite;
 }
+
+.bg2 {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    animation: subir 80s linear infinite;
+
+}
+
+
 
 @keyframes subir {
     0% {
