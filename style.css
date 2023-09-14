@@ -72,13 +72,32 @@ body {
     position: fixed;
     z-index: -1;
     bottom: 0;
-    animation: subir 80s linear infinite;
-
+    animation: subir2 80s linear infinite 80s;
+    opacity: 0; /* Inicialmente invisible */
+    animation: aparecer 1s forwards 80s; /* La animación dura 80 segundos */
 }
 
 
+@keyframes aparecer {
+    0% {
+        opacity: 0; /* Inicialmente invisible */
+    }
+    100% {
+        opacity: 100; /* Se vuelve visible al final de la animación */
+    }
+}
 
 @keyframes subir {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes subir2 {
+    
     0% {
         transform: translateY(100%);
     }
