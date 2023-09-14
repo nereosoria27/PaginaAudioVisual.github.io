@@ -60,6 +60,23 @@ body {
     padding: 50px;
 }
 
+.bg {
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    animation: subir 10s linear infinite;
+}
+
+@keyframes subir {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+
 footer {
     text-align: center;
     background: rgb(8,4,88);
