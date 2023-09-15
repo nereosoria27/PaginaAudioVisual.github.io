@@ -66,24 +66,32 @@ body {
     z-index: -1;
     bottom: 0;
     animation: subir 80s linear infinite;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
 }
 
 .bg2 {
     position: fixed;
     z-index: -1;
     bottom: 0;
+    opacity: 0; 
+    animation: aparecer 1s forwards 80s;
     animation: subir2 80s linear infinite 80s;
-    opacity: 0; /* Inicialmente invisible */
-    animation: aparecer 1s forwards 80s; /* La animación dura 80 segundos */
 }
 
 
 @keyframes aparecer {
     0% {
-        opacity: 0; /* Inicialmente invisible */
+        opacity: 0; 
+        bottom: -50px;
     }
     100% {
-        opacity: 100; /* Se vuelve visible al final de la animación */
+        opacity: 100; 
+        bottom: 100%
     }
 }
 
